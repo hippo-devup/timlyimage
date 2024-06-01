@@ -3,7 +3,7 @@ import fetch  from "node-fetch"
 import common   from "../../lib/common/common.js";
 import path     from "path"
 
-const _path  = path.join(process.cwd(), 'plugins/autoimage')
+const _path  = path.join(process.cwd(), 'plugins/timelyimage')
 const groups = ['789748490']
 
 /**
@@ -11,7 +11,7 @@ const groups = [
 	'209908494',//一群
 	'580213401',//重生二群
 	'427566282',//三群
-	'789748490'//四群
+	'789748490' //四群
 ]*/
 
 export class timer extends plugin {
@@ -35,7 +35,7 @@ export class timer extends plugin {
 		  fnc: 'freqsend'
 		},
 		{
-		reg: '^能不能每小时发一张图|图片可以丰富点|给我一个老婆',
+		reg: '^图片可以丰富点|给我一个老婆',
 		  fnc: 'learnt'
 		}
       ]
