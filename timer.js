@@ -31,7 +31,7 @@ export class timer extends plugin {
 		  fnc: 'sendone'
 		},
 		{
-		  reg: '^#丧心病狂地发图吧',
+		  reg: '^#多图',
 		  fnc: 'freqsend'
 		},
 		{
